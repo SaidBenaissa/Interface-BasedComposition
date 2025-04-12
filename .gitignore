@@ -1,0 +1,41 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore publish outputs
+publish/
+out/
+
+# Ignore Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore Visual Studio working files
+.vs/
+
+# Ignore Visual Studio Code files
+.vscode/
+*.code-workspace
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore dependency directories
+packages/
+
+# Ignore temporary files
+*.tmp
+*.temp
+.fake
